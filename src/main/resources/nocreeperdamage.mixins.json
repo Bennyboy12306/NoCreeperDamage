@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cc.badideas.nocreeperdamage.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ExplosionImplMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

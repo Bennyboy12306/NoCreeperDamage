@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "nocreeperdamage",
+  "version": "${version}",
+  "name": "NoCreeperDamage",
+  "description": "Adds a gamerule that disables creeper block damage.",
+  "authors": [],
+  "contact": {},
+  "license": "ISC",
+  "icon": "assets/nocreeperdamage/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "cc.badideas.nocreeperdamage.NoCreeperDamage"
+    ]
+  },
+  "mixins": [
+    "nocreeperdamage.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
